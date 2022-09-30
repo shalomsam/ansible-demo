@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build ./collections/context/ --file Dockerfile --tag ansible-custome-ee:$(date +%s)
+      run: docker build . --file ./collections/context/Dockerfile --tag ansible-custome-ee:$(date +%s)
