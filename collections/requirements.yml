@@ -1,5 +1,5 @@
 ---
 collections:
-  - name: community.general  
-  - name: community.vmware
-  - name: community.docker.docker_containers
+- name: community.general  
+- name: community.vmware
+- name: community.docker.docker_containers
